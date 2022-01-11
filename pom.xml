@@ -11,6 +11,7 @@
     <description>聚合服务</description>
     <modules>
         <module>service</module>
+        <module>common</module>
     </modules>
 
     <properties>

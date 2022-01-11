@@ -1,5 +1,14 @@
 server:
   port: 8001
+
 spring:
   application:
     name: server-oms
+  datasource:
+    username: root
+    password: Root123
+    url: jdbc:mysql://121.41.1.232:3306/store_oms?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml

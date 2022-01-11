@@ -14,12 +14,18 @@
         <module>store-ums</module>
         <module>store-wms</module>
     </modules>
-
+    <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>service</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.zjk.store</groupId>
+            <artifactId>common_utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--swagger-->
         <dependency>
             <groupId>io.springfox</groupId>
